@@ -8,7 +8,7 @@ import user from "../assets/images/user.png";
 import AddCard from "../components/AddCard";
 
 const LandingPage = () => {
-  const [reservationData, setReservationData] = useState([]); // State to hold reservation data
+  const [reservationData, setReservationData] = useState([]);
 
   const handleButtonClick = () => {
     alert("Button clicked!");
